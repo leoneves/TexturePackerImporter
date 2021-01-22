@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageVersion>1.0.0</PackageVersion>
+    <LangVersion>8</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="lib\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.Content.Pipeline.Portable" Version="3.7.1.189">
+        <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+</Project>
