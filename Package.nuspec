@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package >
+<package>
   <metadata>
     <id>TexturePackerImporter</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>TexturePackerImporter</title>
-    <authors>leonardoneves</authors>
-    <owners>leonardoneves</owners>
+    <authors>eleonardoneves</authors>
+    <owners>eleonardoneves</owners>
     <license type="expression">MIT</license>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <projectUrl>https://github.com/leoneves/TexturePackerImporter</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A library to manage Scenes</description>
-    <releaseNotes>First change.</releaseNotes>
-    <copyright>Copyright 2020</copyright>
+    <description>A library to easily import and use TexturePacker sprite sheets</description>
+    <releaseNotes>First version.</releaseNotes>
+    <copyright>Copyright 2021</copyright>
     <tags></tags>
      <dependencies>
         <dependency id="Newtonsoft.Json" version="12.0.3" />
