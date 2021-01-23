@@ -1,14 +1,14 @@
 ﻿using Newtonsoft.Json;
 
-namespace TiledMapPipeline
+namespace TPTileMapPipeline
 {
-    public class TilesCoorinatesJson
+    public class TPTileCoordinatesJson
     {
         [JsonProperty("tiles")]
-        public TileCoordinates[] Tiles { get; set; }
+        public TPTileCoordinatesJson[] Tiles { get; set; }
     }
 
-    public class TileCoordinates
+    public class TPTileMapCoordinates
     {
         [JsonProperty("file_name")]
         public string FileName { get; set; }

@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.Xna.Framework.Content.Pipeline;
 
-namespace TiledMapPipeline
+namespace TPTileMapPipeline
 {
-    [ContentProcessor(DisplayName = "Tiled Map Processor")]
-    public class TiledMapProcessor : ContentProcessor<string, JsonContentProcessorResult>
+    [ContentProcessor(DisplayName = "Tileset Map Processor")]
+    public class TPTileMapProcessor : ContentProcessor<string, JsonContentProcessorResult>
     {
         public override JsonContentProcessorResult Process(string input, ContentProcessorContext context)
         {

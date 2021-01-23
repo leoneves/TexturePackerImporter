@@ -1,10 +1,10 @@
 ﻿using Microsoft.Xna.Framework.Content.Pipeline;
 using Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler;
 
-namespace TiledMapPipeline 
+namespace TPTileMapPipeline
 {
     [ContentTypeWriter]
-    public class TiledMapWriter : ContentTypeWriter<JsonContentProcessorResult>
+    public class TPTileMapWriter : ContentTypeWriter<JsonContentProcessorResult>
     {
         protected override void Write(ContentWriter output, JsonContentProcessorResult value)
         {
@@ -16,12 +16,12 @@ namespace TiledMapPipeline
 
         public override string GetRuntimeType(TargetPlatform targetPlatform)
         {
-            return typeof(TilesCoorinatesJson).AssemblyQualifiedName;
+            return typeof(TPTileCoordinatesJson).AssemblyQualifiedName;
         }
 
         public override string GetRuntimeReader(TargetPlatform targetPlatform)
         {
-            return "TiledMapPipeline.TiledMapReader, texture_packer_importer";
+            return "TPTileMapPipeline.TPTileMapReader, texture_packer_importer";
         }
     }
 }
